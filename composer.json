@@ -1,0 +1,23 @@
+{
+    "name": "gonzaloserrano/silex-bootflat-skeleton",
+    "description": "A pre-configured skeleton for the Silex microframework with Bootflat framework integration",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "silex/silex": "~1.2",
+        "silex/web-profiler": "~1.0",
+        "symfony/monolog-bridge": "~2.5",
+        "symfony/twig-bridge": "~2.3"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "dev-master",
+        "phpspec/phpspec": "~2.0",
+        "raulfraile/ladybug": "~1.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    }
+}

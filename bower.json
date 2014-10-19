@@ -1,0 +1,6 @@
+{
+  "name": "silex-bootflat-edition",
+  "dependencies": {
+    "Bootflat": "~2.0.4"
+  }
+}
